@@ -1,0 +1,64 @@
+date: 2014-05-18 18:43:13.650
+argv: e:\nodejs\node.exe c:\Users\smart\AppData\Roaming\npm\node_modules\hexo\bin\hexo generate
+os: Windows_NT 6.1.7601 win32 x64
+version:
+  hexo: 2.5.7
+  http_parser: 1.0
+  node: 0.10.24
+  v8: 3.14.5.9
+  ares: 1.9.0-DEV
+  uv: 0.10.21
+  zlib: 1.2.3
+  modules: 11
+  openssl: 1.0.1e
+---
+
+[debug] 18:43:13.431 Config file loaded
+[debug] 18:43:13.432 Version info checked successfully
+[debug] 18:43:13.462 Loading database.
+[error] 18:43:13.595 HexoError: Process failed: _posts/hello-world.md
+TypeError: Cannot read property 'length' of null
+    at c:\Users\smart\AppData\Roaming\npm\node_modules\hexo\lib\plugins\filter\external_link.js:26:36
+    at String.replace (native)
+    at module.exports (c:\Users\smart\AppData\Roaming\npm\node_modules\hexo\lib\plugins\filter\external_link.js:11:31)
+    at c:\Users\smart\AppData\Roaming\npm\node_modules\hexo\lib\post\render.js:115:11
+    at iterate (c:\Users\smart\AppData\Roaming\npm\node_modules\hexo\node_modules\async\lib\async.js:149:13)
+    at c:\Users\smart\AppData\Roaming\npm\node_modules\hexo\node_modules\async\lib\async.js:160:25
+    at c:\Users\smart\AppData\Roaming\npm\node_modules\hexo\lib\post\render.js:122:13
+    at module.exports (c:\Users\smart\AppData\Roaming\npm\node_modules\hexo\lib\plugins\filter\auto_spacing.js:4:41)
+    at c:\Users\smart\AppData\Roaming\npm\node_modules\hexo\lib\post\render.js:115:11
+    at iterate (c:\Users\smart\AppData\Roaming\npm\node_modules\hexo\node_modules\async\lib\async.js:149:13)
+
+[debug] 18:43:13.613 Processed: LICENSE
+[debug] 18:43:13.613 Processed: README.md
+[debug] 18:43:13.624 Processed: source/css/_base/layout.styl
+[debug] 18:43:13.624 Processed: source/css/_base/utils.styl
+[debug] 18:43:13.624 Processed: source/css/_base/variable.styl
+[debug] 18:43:13.624 Processed: source/css/_partial/archive.styl
+[debug] 18:43:13.624 Processed: source/css/_partial/article.styl
+[debug] 18:43:13.624 Processed: source/css/_partial/comment.styl
+[debug] 18:43:13.624 Processed: source/css/_partial/footer.styl
+[debug] 18:43:13.624 Processed: source/css/_partial/header.styl
+[debug] 18:43:13.624 Processed: source/css/_partial/index.styl
+[debug] 18:43:13.624 Processed: source/css/_partial/sidebar.styl
+[debug] 18:43:13.624 Processed: source/css/_partial/syntax.styl
+[debug] 18:43:13.636 Processed: source/fancybox/blank.gif
+[debug] 18:43:13.637 Processed: source/fancybox/fancybox_loading.gif
+[debug] 18:43:13.638 Processed: source/fancybox/fancybox_loading@2x.gif
+[debug] 18:43:13.639 Processed: source/fancybox/fancybox_overlay.png
+[debug] 18:43:13.640 Processed: source/fancybox/fancybox_sprite.png
+[debug] 18:43:13.640 Processed: source/fancybox/fancybox_sprite@2x.png
+[debug] 18:43:13.641 Processed: source/fancybox/jquery.fancybox.css
+[debug] 18:43:13.642 Processed: source/fancybox/jquery.fancybox.pack.js
+[debug] 18:43:13.643 Processed: source/js/gallery.js
+[debug] 18:43:13.644 Processed: source/js/jquery.imagesloaded.min.js
+[debug] 18:43:13.645 Processed: source/css/style.styl
+[debug] 18:43:13.646 Processed: source/css/font/fontawesome-webfont.eot
+[debug] 18:43:13.647 Processed: source/css/font/fontawesome-webfont.svg
+[debug] 18:43:13.648 Processed: source/css/font/fontawesome-webfont.ttf
+[debug] 18:43:13.649 Processed: source/css/font/fontawesome-webfont.woff
+[debug] 18:43:13.650 Cache saved
+[debug] 18:43:13.658 Theme config loaded
+[debug] 18:43:13.659 Processed: _config.yml
+[debug] 18:43:13.659 Processed: languages/default.yml
+[debug] 18:43:13.675 Processed: languages/es.yml
